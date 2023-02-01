@@ -13,7 +13,7 @@ ingredientForm.addEventListener('submit', (event) => {
   const apiUrl = 'https://api.spoonacular.com/recipes/findByIngredients';
   const params = new URLSearchParams();
   params.append('ingredients', ingredientList);
-  params.append('number', 5);
+  params.append('number', 2);
   params.append('apiKey', apiKey);
   const requestUrl = `${apiUrl}?${params}`;
   fetch(requestUrl)
