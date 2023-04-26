@@ -53,7 +53,7 @@ ingredientForm.addEventListener('submit', (event) => {
                 recipeContainer.appendChild(recipeImage);
 
                 const recipeInstructions = document.createElement('p');
-                recipeInstructions.textContent = recipeDetails.instructions;
+                recipeInstructions.innerHTML = recipeDetails.instructions;
                 recipeContainer.appendChild(recipeInstructions);
 
                 const recipeNutrition = document.createElement('ul');
