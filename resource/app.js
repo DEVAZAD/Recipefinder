@@ -55,7 +55,7 @@ ingredientForm.addEventListener('submit', (event) => {
                 const recipeInstructions = document.createElement('p');
           
                 recipeInstructions.innerHTML = recipeDetails.instructions;
-                recipeInstructions.className = "left-align";
+                recipeInstructions.SetAttribute("id" ,"left-align");
                 recipeContainer.appendChild(recipeInstructions);
 
                 const recipeNutrition = document.createElement('ul');
