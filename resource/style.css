@@ -73,7 +73,9 @@ footer a {
   color: #4CAF50;
   text-decoration: none;
 }
-
+#left-align{
+  text-align:left;
+}
 @media (max-width: 600px) {
   header {
     flex-direction: column;
