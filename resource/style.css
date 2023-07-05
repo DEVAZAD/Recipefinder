@@ -43,7 +43,7 @@
   letter-spacing: 3px;
   font-size: 4em;
   text-transform: uppercase;
-  animation: typing 5s steps(10) forwards;
+  animation: typing 5s steps(7) forwards;
   overflow: hidden;
 
 }
