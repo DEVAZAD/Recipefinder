@@ -96,6 +96,7 @@ header h1 {
 }
 
 
+
 #ingredient-form {
   align-items: center;
   text-align: center;
@@ -105,6 +106,7 @@ header h1 {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  color:#ffffff;
 }
 
 #ingredients {
@@ -127,6 +129,11 @@ button {
 
 button:hover {
   background-color: #3c9f40;
+}
+
+
+p{
+  color:#ffffff;
 }
 
 #recipe-container {
@@ -157,6 +164,9 @@ footer a {
 #left-align{
   text-align:left;
 }
+
+
+
 @media (max-width: 600px) {
   header {
     flex-direction: column;
