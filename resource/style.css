@@ -63,7 +63,10 @@
 body {
   
   justify-content: center;
-  background-color: #F1F1F1;
+  background-image: url('background.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
   color: #333333;
   
 }
