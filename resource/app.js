@@ -1,5 +1,4 @@
-// app.js437dcc5d1dd143008081483a9fea904b// app.js
-// Shortened version of your code
+
 const ingredientForm = document.getElementById('ingredient-form');
 const recipeContainer = document.getElementById('recipe-container');
 
@@ -52,7 +51,7 @@ ingredientForm.addEventListener('submit', async (event) => {
             recipeTitle.textContent = recipeDetails.title;
             recipeContainer.appendChild(recipeTitle);
 
-            // Add image, instructions, nutrition details (similar to your original code)
+            // Add image, instructions, nutrition details (similar to your original code
 
           } catch (error) {
             console.error('Error fetching recipe details:', error);
