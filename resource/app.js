@@ -8,7 +8,7 @@ ingredientForm.addEventListener('submit', async (event) => {
   const ingredients = document.getElementById('ingredients').value;
   const ingredientList = ingredients.split(',').map(ingredient => ingredient.trim());
 
-  const apiKey = 'YOUR_SPOONACULAR_API_KEY'; // Replace with your API key
+  const apiKey = '437dcc5d1dd143008081483a9fea904b'; // Replace with your API key
   const apiUrl = 'https://api.spoonacular.com/recipes/findByIngredients';
   const params = new URLSearchParams({
     ingredients: ingredientList,
